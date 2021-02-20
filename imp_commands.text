@@ -1,0 +1,8 @@
+// To generate the tailwind config
+ npx tailwindcss init -p 
+
+// To compile tailwind directive to css
+npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css
+
+// to generate full tailwind config
+ npx tailwindcss init tailwind-full.config.js --full
